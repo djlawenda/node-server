@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -i ~/.ssh/key.pem -o StrictHostKeyChecking=no ubuntu@3.83.128.168 <<EOF
+ssh ubuntu@3.83.128.168 <<EOF
  cd ~/node-app
  git pull
  npm install
