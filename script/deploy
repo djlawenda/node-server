@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@3.83.128.168 <<EOF
+ssh -t -t ubuntu@3.83.128.168 <<EOF
  cd ~/node-app
  git pull
  npm install
